@@ -1,0 +1,181 @@
+* {
+   margin: none;
+   padding: none;
+}
+.appbar-Cliente {
+   width: 100vw;
+   height: 80px;
+   background-color: #1461bb;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.lista-Cliente{
+   margin-left: -30vw;
+}
+.Main-Cliente {
+   position: relative;
+   width: 100vw;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+.ficha-Cliente {
+   display: flex;
+   flex-direction: column;
+}
+.Desc-Cliente {
+   display: flex;
+   flex-direction: row;
+}
+.Desc-p {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 200px;
+   height: 40px;
+   background-color: whitesmoke;
+   border: 1px solid grey;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+#muda-Cliente {
+   background-color: transparent;
+   border-color: transparent;
+}
+.dados-Cliente {
+   display: flex;
+   flex-direction: row;
+}
+.dados-p {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 200px;
+   height: 40px;
+   background-color: whitesmoke;
+   border: 1px solid grey;
+}
+#dados-a{
+   border-color: transparent;
+}
+
+#dados-button {
+   height: 40px;
+   width: 200px;
+   border-radius: 10px;
+   color:white;
+   background-color: rgba(253, 28, 28, 0.788);
+   border: none;
+   font-size: 20px;
+}
+#dados-button-altera {
+   height: 40px;
+   width: 200px;
+   border-radius: 10px;
+   color:white;
+   background-color: rgba(32, 28, 253, 0.788);
+   border: none;
+   font-size: 20px;
+}
+.solucao {
+   margin-top: 10px;
+}
+@media screen and (max-width: 600px) {
+   .dados-p {
+      width: 80px;
+      height: 20px;
+      font-size: 13px;
+
+   }
+   #dados-button {
+      width: 70px;
+      height: 20px;
+      font-size: 8px;
+   }
+   #dados-button-altera {
+      width: 70px;
+      height: 20px;
+      font-size: 8px;
+   }
+   .Desc-p {
+      width: 80px;
+      height: 20px;
+      font-size: 9px;
+      
+   }
+   #dados-a {
+      width: 70px;
+      height: 20px;
+   }
+   #muda-Cliente {
+      width: 70px;
+      height: 20px;
+   }
+}
+@media screen and (min-width: 601px) and (max-width: 740px) {
+   .dados-p {
+      width: 110px;
+      height: 25px;
+      font-size: 13px;
+
+   }
+   #dados-button {
+      width: 110px;
+      height: 25px;
+      font-size: 10px;
+   }
+   #dados-button-altera {
+      width: 110px;
+      height: 25px;
+      font-size: 10px;
+   }
+   .Desc-p {
+      width: 110px;
+      height: 25px;
+      font-size: 10px;
+      
+   }
+   #dados-a {
+      width: 110px;
+      height: 25px;
+   }
+   #muda-Cliente {
+      width: 110px;
+      height: 25px;
+   }
+}
+@media screen and (min-width: 601px) and (max-width: 770px) {
+   .dados-p {
+      width: 140px;
+      height: 30px;
+      font-size: 15px;
+
+   }
+   #dados-button {
+      width: 140px;
+      height: 30px;
+      font-size: 13px;
+   }
+   #dados-button-altera {
+      width: 140px;
+      height: 30px;
+      font-size: 13px;
+   }
+   .Desc-p {
+      width: 140px;
+      height: 30px;
+      font-size: 13px;
+      
+   }
+   #dados-a {
+      width: 140px;
+      height: 30px;
+   }
+   #muda-Cliente {
+      width: 140px;
+      height: 30px;
+   }  
+}

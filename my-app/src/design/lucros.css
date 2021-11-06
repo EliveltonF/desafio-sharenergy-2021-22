@@ -1,0 +1,53 @@
+.appBar-Lucro {
+   width: 100vw;
+   height: 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #1461bb;
+}
+.list-Lucro{
+   margin-left: -30vw;
+}
+.main-Lucro {
+   width: 100vw;
+   height: 100vh;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+.lucro {
+   margin-top: 10px;
+   flex-direction: column;
+   display: flex;
+   position: static;
+   border: 1px solid grey;
+   border-radius: 10px;
+}
+.desc-tabela-lucro {
+   display: flex;
+   flex-direction: row;
+}
+.info-tabela-lucro {
+   display: flex;
+   flex-direction: row;
+}
+.lucro-p {
+   border: 1px solid grey;
+   margin: 10px;
+   background-color: whitesmoke;
+   height: 30px;
+   min-width: 250px;
+   font-size: 20px;
+   text-align: center;
+}
+@media screen and (max-width: 600px) {
+   .lucro {
+      width: 95vw;
+   }
+   .lucro-p {
+      min-width: 42vw;
+   }
+   
+}
