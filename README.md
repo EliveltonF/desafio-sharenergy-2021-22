@@ -24,14 +24,14 @@ nodemon
 instalação:
  
  front-end:
-    cd my-app
-    npm i
-    npm start
+    cd my-app / 
+    npm i / 
+    npm start /
     
  back-end:
-    cd server
-    cd i
-    cd run devStart
+    cd server /
+    cd i /
+    cd run devStart / 
     
   tem que configurar o root e password do banco de dados mysql
  
